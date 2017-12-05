@@ -18,18 +18,7 @@ jQuery(document).ready(function($) {
         });
 
     });
-    
-    /* Bootstrap Tooltip for Skillset */
-    $('.level-label').tooltip();
-    
-    
-    /* jQuery RSS - https://github.com/sdepold/jquery-rss */
-    
 
-    
-    /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    GitHubCalendar("#github-graph", "IonicaBizau");
-    
     GitHubActivity.feed({ username: "pradeepsen99", selector: "#ghfeed" });
 
 
