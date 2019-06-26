@@ -1,0 +1,104 @@
+html,body,div,span,object,iframe,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+
+html,body{
+	width:100%;
+	height:100%;
+	background:#111;
+	position: fixed;
+  z-index: -1;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+	border-radius: 50%;
+}
+
+.title {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+}
+
+.bullets {
+  color: black;
+}
+
+.something {
+ z-index:1
+ background-color: rgba(255, 255, 255, 0.9);
+}
+
+.content {
+    padding:20px;
+    width:710px;
+    position:relative;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
+}
+
+h1 {
+  font-size: 4.5em;
+  color: white;
+	background: rgba(255, 255, 255, 0.0);
+  font-family: 'Droid Sans', serif;
+  letter-spacing: 2px;
+  pointer-events: none;
+  font-weight: 500;
+  border: 0px;
+  margin: 0px;
+  text-align: center
+  color: #00000000;
+}
+p {
+  font-family: 'Open Sans', serif;
+	background: rgba(255, 255, 255, 0.0);
+  font-size: 2.3em;
+  text-align: center;
+  color: white;
+}
+a {
+  text-decoration: none;
+  /*color: #ffff66;*/
+  color: #ffffff;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background: #000000 no-repeat 50% 50%;
+}

@@ -1620,3 +1620,38 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+		/* ---- particles.js container ---- */
+
+
+
+  .particles-js .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+    background: black;
+    opacity: 0.6;
+}
+
+.particles-js {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+    background: black;
+    opacity: 0.6;
+}
+.particles-js video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+  
