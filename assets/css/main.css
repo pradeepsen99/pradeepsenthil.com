@@ -661,9 +661,18 @@
 			margin: 2.5rem 0;
 			width: 100%;
 		}
-
 			.image.main img {
 				width: 100%;
+			}
+
+		.image.transit {
+			display: flex;
+			margin: 0;
+			width: 50%;
+		}
+			.image.transit img {
+				width: 50%;
+				height: 50%;
 			}
 
 		@media screen and (max-width: 736px) {
