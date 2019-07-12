@@ -90,12 +90,17 @@
 						<article id="last_chance">
 							<h2 class="major">Last Chance to Run</h2>
 
-							<p>This is a 2D side scroller. The player is given the ability to jump in order to jump and dodge the obstacles in front of them. Some of the
+							<p>
+								This is a 2D side scroller. The player is given the ability to jump in order to jump and dodge the obstacles in front of them. Some of the
 								obstacles that the player might be rpesented with are the buildings themselves and also random objects that may appear.
 							</p>
 							<p>
-								The main goal of the game is for the player to go through the level collecting all of the money presented in front of them and also 
-
+								The main goal of the game is for the player to go through the level collecting all of the money presented in front of them. The money picked up 
+								is calculated into the score value which is the metric the player will use to see how well they do.
+							</p>
+							<p>
+								The game was made entirely in C# and Unity3D. Unity was used to get the interface together and also get the animations into the game. The main
+								codebase was written in C# and this consisted of the code behind the player movement, object collision, score counting, etc.
 							</p>
 
 							<div class="videoInsert">
@@ -173,10 +178,11 @@
 				</footer>
 		</div>
 
+		
 		<div class="particles-js">
-			<div class="particles-js overlay"></div>
-			<div id="particles-js"></div>
-		</div>
+				<div class="particles-js overlay"></div>
+				<div id="particles-js"></div>
+			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
