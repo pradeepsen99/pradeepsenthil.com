@@ -1119,18 +1119,27 @@
     opacity: 0.6;
 }
 
+.videoInsert {
+    position: relative; 
+    width: auto; 
+    height: auto; 
+    z-index: -2;
+    overflow: inherit;
+}
+
 .videoContainer {
-    position: fixed;
+	position: relative;
+	min-width: 100%;
+    min-height: 100%;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    overflow: hidden;
+    overflow: inherit;
     z-index: -100;
 }
 .videoContainer video {
-    min-width: 100%;
-    min-height: 100%;
+
     position: relative;
     z-index: 1;
 }
